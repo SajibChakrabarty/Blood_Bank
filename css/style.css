@@ -1,8 +1,60 @@
+  /* Nav Start */
+  .container-fluid{
+    font-size: large;
+    border: 1px solid rgb(113, 210, 105);
+    border-radius: 5px;
+    letter-spacing: 4px;
+    word-spacing: 16px;
+  }
+  
+  .navbar-brand img{
+    width: 150px;
+    height: 50px;
+    border: 2px solid red;
+    border-radius: 5px;
+  }
+  
+  /* Nav End */
+/* Who we are Page Start */
+#who .container img{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 40%;
+}
+
+#who .container {
+  border: 1px solid rgb(204, 165, 165);
+  border-radius: 5px;
+  width: 40%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 50px;
+  box-shadow: 2px 2px 5px 5px #1e1d1d;
+}
+
+#who .container p{
+  margin: 30px 20px 0px 20px;
+  font-size: 16px;
+  color: gray;
+  text-align: center;
+}
+#header {
+  background-image: url(../img/header2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 550px;
+}
+    
 /* Donator Start*/
 .Donator{
-  background-color: bisque;
+  background-color: rgb(150, 142, 131);
+  
 }
 /* Donator End*/
+
   /* Slide Start */
   .carousel-item img{
     height: 500px;
