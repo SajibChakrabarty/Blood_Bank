@@ -54,12 +54,84 @@
 }
 /* Donator End*/
 
-  /* Slide Start */
-  .carousel-item img{
-    height: 500px;
-    width: 100%;
-  }
-  /* Slide End */
+/* Requests Start */
+
+#requests {
+  background-color: rgb(233, 232, 232);
+  padding-bottom: 20px;
+}
+
+#requests .title h2 {
+  text-align: center;
+  color: darkred;
+  margin: 80px 0px 0px 0px;
+}
+
+#requests .title {
+  background-color: white;
+  padding-bottom: 25px;
+}
+
+
+#requests .row .row {
+  background-color: rgb(164, 170, 167);
+  margin-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+
+#requests .row .row .data {
+  margin: 30px 0px 30px 0px;
+  padding-left: 60px;
+}
+#requests .row img{
+  width: 170px;
+  height: 180px;
+  border: 2px solid green;
+  border-radius: 10%;
+}
+#requests .row .row .type {
+  color: darkred;
+  margin: 10px 0px 0px 70px;
+  text-align: center;
+}
+
+#requests .row .row .type h2 {
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  padding: 50px 0px 0px 0px;
+  background-color: lightgrey;
+  border-radius: 100px;
+  border: 2px solid darkred;
+}
+
+#requests .more-req button {
+  background-color: rgb(51, 58, 65);
+  color: white;
+  padding: 5px 50px 5px 50px;
+  border-radius: 5px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  font-size: 20px;
+  text-align: center;
+}
+
+#requests .more-req {
+  text-align: center;
+}
+
+#requests .more-req button:hover {
+  color: darkorange;
+  transition: color 0.5s;
+}
+
+/* Requests End */
   
   /* Footer Start */
 #footer {
